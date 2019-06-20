@@ -1,0 +1,30 @@
+body {
+  padding: 20px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+ul {
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  padding: 4px 8px;
+  margin-right: 20px;
+  list-style: none;
+  border: 1px solid #e6e6e6;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
