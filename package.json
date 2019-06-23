@@ -15,12 +15,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "flow": "flow",
-    "ts": "tsc"
-  },
-  "devDependencies": {
-    "flow-bin": "^0.97.0",
-    "typescript": "^3.4.3"
+    "eject": "react-scripts eject"
   }
 }

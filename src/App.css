@@ -16,13 +16,13 @@ ul {
   overflow: hidden;
 }
 
-li {
+/* li {
   float: left;
   padding: 4px 8px;
   margin-right: 20px;
   list-style: none;
   border: 1px solid #e6e6e6;
-}
+} */
 
 a {
   color: #333;
