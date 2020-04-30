@@ -1,4 +1,4 @@
-# react--demo
+# react-demo
 ## 函数组件与class组件
 ```javascript
 /**
@@ -44,7 +44,7 @@ class Clock extends React.Component {
 ```
 
 ## setState异步问题
-可以让`setState()`接收一个函数而不是一个对象，这个函数用上一个state作为第一个参数，将此次更新被应用时的props作为第二个参数：
+可以让`setState()`接收一个函数而不是一个对象，这个函数用上一个state作为第一个参数，将此次更新被应用时的props作为第二个参数：
 ```javascript
 this.setState((state, props) => ({
     counter: state.counter + props.increment
@@ -52,7 +52,7 @@ this.setState((state, props) => ({
 ));
 ```
 
-## React事件处理
+## React事件处理
 * React事件命名采用小驼峰；
 * 使用`jsx`时需传入一个事件处理函数
 
@@ -106,6 +106,6 @@ class Toggle extends React.Component {
 // 箭头函数传参，事件对象会作为第二个参数传递
 <button onClick={e => this.handleDelete(id, e)}>Delete Row</button>
 
-// 通过bind方式，事件对象以及更多的参数将会被隐式传递
+// 通过bind方式，事件对象以及更多的参数将会被隐式传递
 <button onClick={this.handleDelete.bind(this, id)}>Delete Row</button>
 ```
